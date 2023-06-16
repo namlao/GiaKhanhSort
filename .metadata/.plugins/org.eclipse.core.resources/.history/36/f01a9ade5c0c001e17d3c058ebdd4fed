@@ -1,0 +1,9 @@
+package test.demo;
+
+public class Main {
+	public static void main(String[] args) {
+		SortKhanh sort = new BubleSort();
+		int[] arr = {5,6,9,3,8};
+ 		System.out.println(sort.sort(arr).toString());;
+	}
+}
